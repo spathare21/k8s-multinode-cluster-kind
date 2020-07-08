@@ -20,6 +20,12 @@ $ brew install kind
 ```
 https://kind.sigs.k8s.io/docs/user/quick-start/ 
 
+```
+$ kind create cluster --name=multinode --config=kind.yaml
+$ kubect get nodes
+$ kubectl apply -f daemonsets.yaml
+$ kubectl get pods -o wid 
+```
 
 ### License
 [Apache License](http://www.apache.org/licenses/LICENSE-2.0), Version 2.0
