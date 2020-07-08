@@ -22,9 +22,9 @@ https://kind.sigs.k8s.io/docs/user/quick-start/
 
 ```
 $ kind create cluster --name=multinode --config=kind.yaml
-$ kubect get nodes
+$ kubectl get nodes
 $ kubectl apply -f daemonsets.yaml
-$ kubectl get pods -o wid 
+$ kubectl get pods -o wide 
 ```
 
 ### License
