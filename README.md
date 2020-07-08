@@ -1,4 +1,4 @@
-# k8s-multinode-cluster-kind
+## k8s-multinode-cluster-kind
 Create k8s multinode cluster using kind
 
 ### Prerequisite:
@@ -19,3 +19,7 @@ $ GO111MODULE=”on” go get sigs.k8s.io/kind@v0.8.1
 $ brew install kind
 ```
 https://kind.sigs.k8s.io/docs/user/quick-start/ 
+
+
+### License
+[Apache License](http://www.apache.org/licenses/LICENSE-2.0), Version 2.0
